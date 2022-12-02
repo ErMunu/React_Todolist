@@ -1,0 +1,109 @@
+body {
+    background-color: #2C3A47;
+    margin: 0;
+}
+
+.head {
+    color: #FD7272;
+    font-size: 4.5rem;
+    text-align: center;
+    text-shadow: 3px 3px #000;
+}
+
+.formcontainer {
+    text-align: center;
+}
+
+.formcontainer input {
+    height: 50px;
+    width: 80%;
+    border: 0;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 15PX;
+    color: #3B3B98;
+}
+
+.formcontainer input::placeholder {
+    opacity: 0.4;
+    color: #1B9CFC;
+}
+
+.formcontainer button {
+    background-color: #fff;
+    margin: 0;
+    border: 0;
+    height: 66px;
+}
+
+.formcontainer svg {
+    color: #1B9CFC;
+    height: 53px;
+}
+
+.Todolist {
+    margin: auto;
+    width: 90%;
+    color: #9AECDB;
+    background-color: #6D214F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    padding: 20px;
+}
+
+tr {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+td{
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.Todolist button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.Todolist button svg {
+    color: #000;
+}
+
+.form input{
+    width: 80%;
+    border: 0;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 15PX;
+    color: #fff;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    outline: none;
+    background-color: transparent;
+}
+
+.form input:focus{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    .Todolist {
+        width: 100%;
+    }
+}
