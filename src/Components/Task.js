@@ -1,5 +1,4 @@
-import React, { Component } from 'react'
-import Styles from '../Styles/todo.module.css'
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { deleteTask } from '../Actions';
 import { bindActionCreators } from 'redux';
